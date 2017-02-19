@@ -10,6 +10,7 @@ add_executable(_sampleTests
 
 target_link_libraries(_sampleTests
     gtest
+    gmock
     sample
 )
 

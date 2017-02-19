@@ -1,4 +1,5 @@
 #include <gtest/gtest.h>        // Google Test
+#include <gmock/gmock.h>        // Google Mock
 #include <sample.h>             // Source
 #include "fixtureQueue.h"       // Fixture
 
