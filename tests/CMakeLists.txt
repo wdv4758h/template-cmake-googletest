@@ -1,7 +1,7 @@
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin_tests/)
 set(REPORT_DIRECTORY ${CMAKE_BINARY_DIR}/report/)
 
-include_directories(${CMAKE_SOURCE_DIR}/googletest/include ${CMAKE_SOURCE_DIR}/src)
+include_directories(${CMAKE_SOURCE_DIR}/src)
 
 add_executable(_sampleTests
     main.cpp
