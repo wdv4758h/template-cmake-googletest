@@ -3,7 +3,8 @@
 
 class sample {
 public:
-	static const char* helloWorld();
+    static const char* helloWorld();
+    static int life();
 };
 
 #endif
